@@ -1,0 +1,4 @@
+.env
+ezML_ALL_work/Carviz_window_transparency/Yolov7_window_seg/yolov7/seg/car-1/test
+ezML_ALL_work/Carviz_window_transparency/Yolov7_window_seg/yolov7/seg/car-1/train
+ezML_ALL_work/Carviz_window_transparency/Yolov7_window_seg/yolov7/seg/car-1/valid
