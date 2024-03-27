@@ -1,0 +1,14 @@
+names:
+- b_glass
+- b_win
+- f_win
+nc: 3
+roboflow:
+  license: CC BY 4.0
+  project: car-o22yh
+  url: https://universe.roboflow.com/car-segmentation/car-o22yh/dataset/1
+  version: 1
+  workspace: car-segmentation
+test: ../test/images
+train: car-1/train/images
+val: car-1/valid/images

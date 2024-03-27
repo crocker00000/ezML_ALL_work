@@ -2,10 +2,13 @@ import json
 import base64
 from PIL import Image
 import io
+import sys
 
 if __name__ == '__main__':
+    # print(sys.path)
+
     # Read json file (loaded as dict)
-    with open('car_only_bytestr.json', 'r') as file:
+    with open('car5.json', 'r') as file:
         data = json.load(file)
 
     # Extract byte str from json dict
@@ -18,4 +21,4 @@ if __name__ == '__main__':
     image = Image.open(io.BytesIO(image_data))
 
     # Save the img
-    image.save('car_only.png')
+    image.save('car5_only.png')
